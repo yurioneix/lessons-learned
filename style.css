@@ -2,12 +2,18 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+section {
+    border: 1px solid red;
+}
+
 #cabecalho {
     background-color: cornsilk;
     position: fixed;
     top: 0;
     padding: 8px;
     border: 1px solid rgb(102, 139, 16);
+    color: brown;
+    font-size: 20px;
 }
 
 #minha_foto {
@@ -22,12 +28,18 @@ body {
 .container-about {
     display: inline;
     position: relative;
+    line-height: 5px;
     top: 100px;
     left: 100px;
 }
 
-.physical-table {
-    position: relative;
-    display: inline-block;
-    align-items: center;
+#lessons-learned {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* .physical-table {
+    position: relative;
+    display: block;
+    align-items: center;
+
+} */
