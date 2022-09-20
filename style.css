@@ -6,13 +6,28 @@ body {
     background-color: cornsilk;
     position: fixed;
     top: 0;
+    padding: 8px;
+    border: 1px solid rgb(102, 139, 16);
 }
 
-#minha-foto {
+#minha_foto {
     display: block;
+    position: relative;
     float: left;
+    width: 300px;
+    top: 70px;
+    margin: 8px;
 }
 
-#about-me {
+.container-about {
     display: inline;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.physical-table {
+    position: relative;
+    display: inline-block;
+    align-items: center;
 }
