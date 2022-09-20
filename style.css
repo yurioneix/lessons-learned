@@ -3,6 +3,16 @@ body {
 }
 
 #cabecalho {
+    background-color: cornsilk;
     position: fixed;
     top: 0;
+}
+
+#minha-foto {
+    display: block;
+    float: left;
+}
+
+#about-me {
+    display: inline;
 }
