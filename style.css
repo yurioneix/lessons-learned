@@ -10,6 +10,7 @@ section {
     background-color: cornsilk;
     position: fixed;
     top: 0;
+    left: 33%;
     padding: 8px;
     border: 1px solid rgb(102, 139, 16);
     color: brown;
@@ -26,14 +27,14 @@ section {
 }
 
 .container-about {
-    display: inline;
     position: relative;
-    line-height: 5px;
-    top: 100px;
-    left: 100px;
+    left: 33%;
+    line-height: normal;
+    top: 200px;
 }
 
 #lessons-learned {
+    display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
