@@ -2,15 +2,16 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-section {
+/* section {
     border: 1px solid red;
-}
+} */
 
 #cabecalho {
     background-color: cornsilk;
     position: fixed;
+    width: 100%;
+    text-align: center;
     top: 0;
-    left: 33%;
     padding: 8px;
     border: 1px solid rgb(102, 139, 16);
     color: brown;
@@ -20,22 +21,29 @@ section {
 #minha_foto {
     display: block;
     position: relative;
-    float: left;
-    width: 300px;
-    top: 70px;
+    /* float: left; */
+    width: 200px;
+    top: 150px;
     margin: 8px;
 }
 
 .container-about {
     position: relative;
-    left: 33%;
+    left: 50%;
     line-height: normal;
-    top: 200px;
+    top: 10%;
 }
 
 #lessons-learned {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.physical-table {
+    position: relative;
+    display: inline-block;
+    left: 20%;
+    bottom: 100px;
 }
 
 /* .physical-table {
