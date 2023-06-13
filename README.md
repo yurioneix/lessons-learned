@@ -1,4 +1,6 @@
-# Projeto Lessons Learned 
+# Projeto Lessons Learned
+<hr>
+
 <p>
   Projeto realizado na seção de Introdução à HTML e CSS, do módulo de Fundamentos da Trybe, afim de consolidar o aprendizado das principais tags HTML que compõe a estrutura de uma página e o posicionamento dos componentes através de CSS.
 </p>
